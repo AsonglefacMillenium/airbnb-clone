@@ -1,6 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router'
 import Homebody from './Components/Homebody/Homebody'
+import Shop from './Components/Shop/Shop'
 
 const Routing = () => {
     return (
@@ -8,6 +9,7 @@ const Routing = () => {
 
         <Routes>
             <Route path="/" element={<Homebody />}></Route>
+            <Route path="/shop" element={<Shop/>}></Route>
         </Routes>
             
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import "./Homebody.css"
+import { Link } from 'react-router-dom'
 
 const Homebody = () => {
     return (
@@ -18,7 +19,7 @@ const Homebody = () => {
                 <div className="left-content">
                     <p>Introducing</p>
                     <h1>Airbnb <br /> gift cards</h1>
-                    <button>Shop Now</button>
+                    <Link to="/shop"><button>Shop Now</button></Link>
                 </div>
 
                 <div className="right-image">
