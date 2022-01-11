@@ -19,7 +19,12 @@ const Header = () => {
                 </div>
                 <div className="right-nav">
                     <div className="host">
-                        Become a Host
+                        <p>Become a host</p>
+                    </div>
+
+                    <div className="profile">
+                        <img src="../assets/menu.png" alt="" />
+                        <img src="../assets/profile.png" alt="" className="profile-icon" />
                     </div>
 
                     <div className="account"></div>
