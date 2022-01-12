@@ -1,0 +1,22 @@
+.homebody {
+    margin: 0;
+    padding: 0;
+}
+
+.homebody .dark-background {
+    width: 100vw;
+    height: 800px;
+    background-color: black;
+}
+
+.dark-background img {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+.dark-content h3 {
+    color: black;
+}
