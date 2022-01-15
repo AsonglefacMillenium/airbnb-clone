@@ -31,6 +31,13 @@
     align-self: center;
     position: absolute;
     left: 30%;
+    border-radius: 30px;
+    border: none;
+}
+
+.dark-content button:hover {
+    cursor: pointer;
+    background-color: black;
 }
 
 .dark-content h3 {
