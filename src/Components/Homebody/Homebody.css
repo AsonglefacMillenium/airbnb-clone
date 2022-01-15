@@ -17,8 +17,24 @@
     border-radius: 40px;
 }
 
+.dark-content {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+.dark-content button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: aqua;
+    align-self: center;
+    position: absolute;
+    left: 30%;
+}
+
 .dark-content h3 {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }

@@ -58,6 +58,14 @@
     align-items: center;
 }
 
+.right-nav:hover {
+    background-color: rgb(202, 199, 195);
+    cursor: pointer;
+    width: 300px;
+    border-radius: 30px;
+    padding: 0 20px 0 20px;
+}
+
 .profile {
     display: flex;
     justify-content: space-between;
@@ -68,6 +76,12 @@
     padding-left: 10px;
     padding-right: 10px;
     height: 30px;
+}
+
+.profile:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+    width: 80px;
 }
 
 .profile img {
