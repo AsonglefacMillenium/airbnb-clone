@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from '../Header/Header'
 import "./Homebody.css"
 
 const Homebody = () => {
     return (
         <div className="homebody">
+        <Header/>
             <div className="dark-background">
                 <img src="../assets/darkbg.jpg" alt="" />
                 <div className="dark-content">
@@ -71,6 +73,12 @@ const Homebody = () => {
 
                     </section>
                 </div>
+            </div>
+
+            <div className="ask-host">
+                <h1>Questions <br /> about <br /> hosting?</h1>
+
+                <button>Ask a Superhost</button>
             </div>
         </div>
     )

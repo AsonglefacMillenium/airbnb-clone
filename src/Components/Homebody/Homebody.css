@@ -206,3 +206,45 @@
             cursor: pointer;
             background-color: rgb(201, 198, 198);
         }
+        /*styling superhost section */
+        
+        .ask-host {
+            width: 100vw;
+            height: 650px;
+            color: white;
+            font-size: 35px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            font-weight: bold;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            background-image: url("../../../public/assets/super.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            background-clip: content-box;
+            background-position-y: bottom;
+            margin-top: 100px;
+            margin-bottom: 60px;
+        }
+        
+        .ask-host button {
+            margin-left: 80px;
+            margin-bottom: 50px;
+            height: 50px;
+            width: 200px;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 10px;
+            border: none;
+        }
+        
+        .ask-host button:hover {
+            cursor: pointer;
+            background-color: rgb(201, 198, 198);
+        }
+        
+        .ask-host h1 {
+            margin-left: 80px;
+        }

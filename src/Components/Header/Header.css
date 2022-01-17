@@ -3,8 +3,10 @@
     justify-content: center;
     width: 100vw;
     height: 100px;
-    position: sticky;
+    position: fixed;
     box-shadow: 10px 10px 10px grey;
+    background-color: white;
+    z-index: 3;
 }
 
 .header-content {
