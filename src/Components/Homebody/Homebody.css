@@ -132,6 +132,10 @@
             color: white;
         }
         
+        .trip-items section:hover {
+            cursor: pointer;
+        }
+        
         .trip-items section img {
             width: 300px;
             border-radius: 20px 20px 0px 0px;
