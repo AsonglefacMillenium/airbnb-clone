@@ -26,7 +26,30 @@ const Homebody = () => {
 
 
             <div className="next-trip">
-                <h1>INspiration for your next trip</h1>
+                <h1>Inspiration for your next trip</h1>
+
+                <div className="trip-items">
+                    <section className="trip-card">
+                        <img src="../assets/house1.jpg" alt="" />
+                        <h3>Yaounde</h3>
+                        <p>3 Kilometers away</p>
+                    </section>
+                    <section className="trip-card">
+                        <img src="../assets/house2.jpg" alt="" />
+                        <h3>Douala</h3>
+                        <p>195 Kilometers away</p>
+                    </section>
+                    <section className="trip-card">
+                        <img src="../assets/house3.jpg" alt="" />
+                        <h3>Kribi</h3>
+                        <p>206 Kilometers away</p>
+                    </section>
+                    <section className="trip-card">
+                        <img src="../assets/house4.jpg" alt="" />
+                        <h3>Bonaberi</h3>
+                        <p>209 Kilometers away</p>
+                    </section>
+                </div>
             </div>
         </div>
     )
