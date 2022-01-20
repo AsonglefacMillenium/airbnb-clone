@@ -51,6 +51,27 @@ const Homebody = () => {
                     </section>
                 </div>
             </div>
+
+            <div className="discover">
+                <h1>Discover airbnb experiences</h1>
+                <div className="discover-items">
+                    <section className="discover-item1">
+                    <div className="discover-text">
+                        <h1>Things to do <br /> on your trip</h1>
+                        <button>Experiences</button>
+                    </div>
+
+                    </section>
+
+                    <section className="discover-item2">
+                    <div className="discover-text">
+                        <h1>Things to do <br /> at home</h1>
+                        <button>Online Experiences</button>
+                    </div>
+
+                    </section>
+                </div>
+            </div>
         </div>
     )
 }
