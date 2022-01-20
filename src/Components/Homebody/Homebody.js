@@ -72,6 +72,12 @@ const Homebody = () => {
                     </section>
                 </div>
             </div>
+
+            <div className="ask-host">
+                <h1>Questions <br /> about <br /> hosting?</h1>
+
+                <button>Ask a Superhost</button>
+            </div>
         </div>
     )
 }
