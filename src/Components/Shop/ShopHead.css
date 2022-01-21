@@ -5,6 +5,7 @@
     position: fixed;
     box-shadow: 2px 2px 2px grey;
     align-items: center;
+    top: 0%;
 }
 
 .shop-header {
